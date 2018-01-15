@@ -1,0 +1,25 @@
+!java.util.Map
+teacher:
+  !com.fmy.domain.Teacher
+  id: 1
+  name: 'teacher_name'
+  age: 25
+  students:
+    - !com.fmy.domain.Student
+      id: 21
+      name: 'student_name'
+    - !com.fmy.domain.Student
+      id: 22
+      name: 'student_name xxx'
+teacher1:
+  !com.fmy.domain.Teacher
+  id: 2
+  name: 'teacher_name'
+  age: 24
+  students:
+    - !com.fmy.domain.Student
+      id: 21
+      name: 'student_name'
+    - !com.fmy.domain.Student
+      id: 22
+      name: 'student_name xxx'
