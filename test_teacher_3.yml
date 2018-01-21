@@ -1,0 +1,13 @@
+--- 
+xxx: !com.fmy.domain.Teacher
+  big: !java.math.BigDecimal 10
+  ss: !com.fmy.domain.Student
+    id: 3424
+    name: xxx
+  students: 
+    - !com.fmy.domain.Student
+      id: 34247676
+      name: xxx
+    - !com.fmy.domain.Student
+      id: 34247676
+      name: xxfaasdx

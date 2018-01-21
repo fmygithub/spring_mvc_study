@@ -2,23 +2,18 @@ teacher: !com.fmy.domain.Teacher
   id: 1
   name: 'teacher_name'
   age: 25
-  big: 1000
+  big: 43230
   students:
     - !com.fmy.domain.Student
       id: 21
       name: 'student_name'
-    - !Student
+    - !com.fmy.domain.Student
       id: 22
       name: 'student_name xxx'
-  studentMap:
-    first: !com.fmy.domain.Student
-      id: 000
-      name: "0000"
 teacher1: !com.fmy.domain.Teacher
   id: 2
   name: 'teacher_name'
   age: 24
-  big: 2000
   students:
     - !com.fmy.domain.Student
       id: 21

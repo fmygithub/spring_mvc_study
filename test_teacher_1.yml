@@ -1,0 +1,14 @@
+#!!com.fmy.domain.Teacher
+age: 10
+big: !!float '122'
+id: 100
+name: '24342'
+#ss: !!com.fmy.domain.Student
+ss:
+  id: 1110
+  name: '1110'
+students:
+- id: 110
+  name: '1110'
+- id: 1110
+  name: '1110'
